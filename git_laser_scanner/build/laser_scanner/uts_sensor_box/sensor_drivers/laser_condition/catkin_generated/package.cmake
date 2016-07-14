@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_condition")
+set(laser_condition_MAINTAINER "odroid <odroid@todo.todo>")
+set(laser_condition_DEPRECATED "")
+set(laser_condition_VERSION "0.0.0")
+set(laser_condition_BUILD_DEPENDS "roscpp" "std_msgs" "sensor_msgs")
+set(laser_condition_RUN_DEPENDS "roscpp" "std_msgs" "sensor_msgs")
+set(laser_condition_BUILDTOOL_DEPENDS "catkin")

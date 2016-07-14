@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: rosserial_embeddedlinux
+Description: Description of rosserial_embeddedlinux
+Version: 0.6.3
+Cflags: 
+Libs: -L/home/odroid/git_laser_scanner/install/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "image_exposure_msgs")
+set(image_exposure_msgs_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(image_exposure_msgs_DEPRECATED "")
+set(image_exposure_msgs_VERSION "0.11.0")
+set(image_exposure_msgs_BUILD_DEPENDS "statistics_msgs" "std_msgs" "message_generation")
+set(image_exposure_msgs_RUN_DEPENDS "statistics_msgs" "std_msgs" "message_runtime")
+set(image_exposure_msgs_BUILDTOOL_DEPENDS "catkin")

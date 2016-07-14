@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: rosserial_arduino
+Description: Description of rosserial_arduino
+Version: 0.6.3
+Cflags: -I/home/odroid/git_laser_scanner/install/include
+Libs: -L/home/odroid/git_laser_scanner/install/lib 
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.6.3
+Cflags: 
+Libs: -L/home/odroid/git_laser_scanner/install/lib 
+Requires: 

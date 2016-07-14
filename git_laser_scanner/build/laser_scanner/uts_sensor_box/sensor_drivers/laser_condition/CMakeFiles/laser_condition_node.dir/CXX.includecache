@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/odroid/git_laser_scanner/src/laser_scanner/uts_sensor_box/sensor_drivers/laser_condition/src/laser_condition.cpp
+ros/ros.h
+-
+std_msgs/String.h
+-
+sensor_msgs/LaserScan.h
+-
+

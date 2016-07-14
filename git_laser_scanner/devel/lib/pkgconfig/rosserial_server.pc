@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/devel
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.6.3
+Cflags: -I/home/odroid/git_laser_scanner/src/laser_scanner/uts_sensor_box/sensor_drivers/rosserial/rosserial_server/include
+Libs: -L/home/odroid/git_laser_scanner/devel/lib 
+Requires: roscpp rosserial_msgs topic_tools

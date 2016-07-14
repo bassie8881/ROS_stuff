@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "arf_master")
+set(arf_master_MAINTAINER "odroid <odroid@todo.todo>")
+set(arf_master_DEPRECATED "")
+set(arf_master_VERSION "0.0.0")
+set(arf_master_BUILD_DEPENDS "roscpp")
+set(arf_master_RUN_DEPENDS "roscpp")
+set(arf_master_BUILDTOOL_DEPENDS "catkin")

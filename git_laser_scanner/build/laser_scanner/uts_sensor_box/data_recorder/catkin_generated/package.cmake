@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "data_recorder")
+set(data_recorder_MAINTAINER "odroid <odroid@todo.todo>")
+set(data_recorder_DEPRECATED "")
+set(data_recorder_VERSION "0.0.0")
+set(data_recorder_BUILD_DEPENDS "cmake_modules" "roscpp" "rospy" "std_msgs" "message_generation")
+set(data_recorder_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "message_runtime")
+set(data_recorder_BUILDTOOL_DEPENDS "catkin")

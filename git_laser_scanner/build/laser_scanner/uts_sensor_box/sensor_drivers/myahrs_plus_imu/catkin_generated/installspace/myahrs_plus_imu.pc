@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: myahrs_plus_imu
+Description: Description of myahrs_plus_imu
+Version: 0.0.0
+Cflags: -I/home/odroid/git_laser_scanner/install/include
+Libs: -L/home/odroid/git_laser_scanner/install/lib -lmyahrs_plus_imu
+Requires: 

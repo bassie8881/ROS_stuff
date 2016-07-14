@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: statistics_msgs
+Description: Description of statistics_msgs
+Version: 0.11.0
+Cflags: -I/home/odroid/git_laser_scanner/install/include
+Libs: -L/home/odroid/git_laser_scanner/install/lib 
+Requires: message_runtime

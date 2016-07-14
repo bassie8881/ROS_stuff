@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "conv_imu_to_std")
+set(conv_imu_to_std_MAINTAINER "odroid <odroid@todo.todo>")
+set(conv_imu_to_std_DEPRECATED "")
+set(conv_imu_to_std_VERSION "0.0.0")
+set(conv_imu_to_std_BUILD_DEPENDS "arf_msgs" "cmake_modules" "roscpp" "sensor_msgs")
+set(conv_imu_to_std_RUN_DEPENDS "arf_msgs" "cmake_modules" "roscpp" "sensor_msgs")
+set(conv_imu_to_std_BUILDTOOL_DEPENDS "catkin")

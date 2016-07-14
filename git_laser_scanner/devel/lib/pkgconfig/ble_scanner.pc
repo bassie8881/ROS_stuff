@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/devel
+
+Name: ble_scanner
+Description: Description of ble_scanner
+Version: 0.0.0
+Cflags: -I/home/odroid/git_laser_scanner/devel/include
+Libs: -L/home/odroid/git_laser_scanner/devel/lib 
+Requires: rospy

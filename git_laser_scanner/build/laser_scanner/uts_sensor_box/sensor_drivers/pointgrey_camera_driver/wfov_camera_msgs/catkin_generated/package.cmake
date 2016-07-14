@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wfov_camera_msgs")
+set(wfov_camera_msgs_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(wfov_camera_msgs_DEPRECATED "")
+set(wfov_camera_msgs_VERSION "0.11.0")
+set(wfov_camera_msgs_BUILD_DEPENDS "sensor_msgs" "message_generation")
+set(wfov_camera_msgs_RUN_DEPENDS "sensor_msgs" "message_runtime")
+set(wfov_camera_msgs_BUILDTOOL_DEPENDS "catkin")

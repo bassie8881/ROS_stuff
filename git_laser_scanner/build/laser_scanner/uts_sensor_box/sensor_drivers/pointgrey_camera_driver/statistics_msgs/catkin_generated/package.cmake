@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "statistics_msgs")
+set(statistics_msgs_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(statistics_msgs_DEPRECATED "")
+set(statistics_msgs_VERSION "0.11.0")
+set(statistics_msgs_BUILD_DEPENDS "message_generation")
+set(statistics_msgs_RUN_DEPENDS "message_runtime")
+set(statistics_msgs_BUILDTOOL_DEPENDS "catkin")

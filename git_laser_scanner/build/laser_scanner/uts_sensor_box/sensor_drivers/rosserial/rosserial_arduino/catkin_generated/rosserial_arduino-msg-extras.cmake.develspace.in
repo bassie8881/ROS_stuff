@@ -1,0 +1,2 @@
+set(rosserial_arduino_MESSAGE_FILES "/home/odroid/git_laser_scanner/src/laser_scanner/uts_sensor_box/sensor_drivers/rosserial/rosserial_arduino/msg/Adc.msg;/home/odroid/git_laser_scanner/src/laser_scanner/uts_sensor_box/sensor_drivers/rosserial/rosserial_arduino/msg/rgb.msg")
+set(rosserial_arduino_SERVICE_FILES "/home/odroid/git_laser_scanner/src/laser_scanner/uts_sensor_box/sensor_drivers/rosserial/rosserial_arduino/srv/Test.srv")

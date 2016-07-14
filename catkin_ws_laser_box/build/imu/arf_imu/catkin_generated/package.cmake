@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "arf_imu")
+set(arf_imu_MAINTAINER "ravindra <ravindra@todo.todo>")
+set(arf_imu_DEPRECATED "")
+set(arf_imu_VERSION "0.0.0")
+set(arf_imu_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arf_imu_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arf_imu_BUILDTOOL_DEPENDS "catkin")

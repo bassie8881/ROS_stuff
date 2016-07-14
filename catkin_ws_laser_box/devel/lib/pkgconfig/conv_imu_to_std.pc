@@ -1,0 +1,8 @@
+prefix=/home/odroid/catkin_ws/devel
+
+Name: conv_imu_to_std
+Description: Description of conv_imu_to_std
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/catkin_ws/devel/lib 
+Requires: 

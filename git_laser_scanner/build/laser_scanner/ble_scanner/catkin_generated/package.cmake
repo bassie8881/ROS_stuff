@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ble_scanner")
+set(ble_scanner_MAINTAINER "maani <maani@todo.todo>")
+set(ble_scanner_DEPRECATED "")
+set(ble_scanner_VERSION "0.0.0")
+set(ble_scanner_BUILD_DEPENDS "roscpp" "rospy" "message_generation")
+set(ble_scanner_RUN_DEPENDS "roscpp" "rospy" "message_runtime")
+set(ble_scanner_BUILDTOOL_DEPENDS "catkin")

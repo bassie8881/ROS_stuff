@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/install
+
+Name: wfov_camera_msgs
+Description: Description of wfov_camera_msgs
+Version: 0.11.0
+Cflags: -I/home/odroid/git_laser_scanner/install/include
+Libs: -L/home/odroid/git_laser_scanner/install/lib 
+Requires: sensor_msgs message_runtime

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "arf_msgs")
+set(arf_msgs_MAINTAINER "ravindra <ravindra@todo.todo>")
+set(arf_msgs_DEPRECATED "")
+set(arf_msgs_VERSION "0.0.0")
+set(arf_msgs_BUILD_DEPENDS "message_generation" "sensor_msgs")
+set(arf_msgs_RUN_DEPENDS "message_runtime")
+set(arf_msgs_BUILDTOOL_DEPENDS "catkin")

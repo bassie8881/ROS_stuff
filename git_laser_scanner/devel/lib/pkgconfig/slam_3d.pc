@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/devel
+
+Name: slam_3d
+Description: Description of slam_3d
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/git_laser_scanner/devel/lib 
+Requires: 

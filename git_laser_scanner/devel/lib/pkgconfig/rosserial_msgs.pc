@@ -1,0 +1,8 @@
+prefix=/home/odroid/git_laser_scanner/devel
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.6.3
+Cflags: -I/home/odroid/git_laser_scanner/devel/include
+Libs: -L/home/odroid/git_laser_scanner/devel/lib 
+Requires: message_runtime

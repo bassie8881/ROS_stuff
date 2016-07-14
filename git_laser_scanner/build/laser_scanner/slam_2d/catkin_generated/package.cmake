@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "slam_2d")
+set(slam_2d_MAINTAINER "brendan <brendan@todo.todo>")
+set(slam_2d_DEPRECATED "")
+set(slam_2d_VERSION "0.0.0")
+set(slam_2d_BUILD_DEPENDS "hector_mapping" "roscpp" "std_msgs")
+set(slam_2d_RUN_DEPENDS "hector_mapping" "roscpp" "std_msgs")
+set(slam_2d_BUILDTOOL_DEPENDS "catkin")
