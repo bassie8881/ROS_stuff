@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="lut" default="lut"/>
+  
+  <node pkg="pyhash" type="basic_hash_node.py" name="basic_hash_node" output="screen">
+    <param name="lut" value="$(arg lut)"/>
+    <param name="lut_fp" value="$(find pyhash)/data/$(arg lut).csv"/>
+    <param name="lut_args_fp" value="$(find pyhash)/data/$(arg lut)_args.csv"/>
+  </node>
+
+</launch>

@@ -1,0 +1,57 @@
+float WheelChair::linv(int in)
+{
+  if(in>=joy_lowerx) return -0.5;
+  else if (in<=joy_upperx) return 1.0;
+  else if(fabs(in-datum_joyx)<20) return 0.0;
+  else
+  {
+	if(in<datum_joyx) for(int i=0; i<6; i++)
+	{
+		step_temp_ = datum_joyx-(215*i);
+		if(in<=step_temp_)
+		{
+			step_temp_d_ = step_temp_-in;
+			vo = vstore[4+i] + (vstore[5+i]-vstore[4+i])*(step_temp_d_/215.0);
+		}
+	}
+	else for(int i=0; i<4; i++)
+	{
+		step_temp_ = datum_joyx+(410*i);
+		if(in>=step_temp_)
+		{
+			step_temp_d_ = in-step_temp_;
+			vo = vstore[4-i] + (vstore[3-i]-vstore[4-i])*(step_temp_d_/410.0);
+		}
+	}
+	return vo;
+  }
+}
+
+float WheelChair::angv(int in)
+{
+  if(in>=joy_lowery) return -1.0;
+  else if (in<=joy_uppery) return 1.0;
+  else if(fabs(in-datum_joyy)<20) return 0.0;
+  else
+  {
+	if(in<datum_joyy) for(int i=0; i<6; i++)
+	{
+		step_temp_ = datum_joyy-(258*i);
+		if(in<=step_temp_)
+		{
+			step_temp_d_ = step_temp_-in;
+			ao = astore[6-i] + (astore[5-i]-astore[6-i])*(step_temp_d_/258.0);
+		}
+	}
+	else for(int i=0; i<4; i++)
+	{
+		step_temp_ = datum_joyy+(410*i);
+		if(in>=step_temp_)
+		{
+			step_temp_d_ = in-step_temp_;
+			ao = astore[6+i] + (astore[7+i]-astore[6+i])*(step_temp_d_/410.0);
+		}
+	}
+	return ao;
+  }
+}

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "master_laser_scanner")
+set(master_laser_scanner_MAINTAINER "brendan <brendan@todo.todo>")
+set(master_laser_scanner_DEPRECATED "")
+set(master_laser_scanner_VERSION "0.0.0")
+set(master_laser_scanner_BUILD_DEPENDS )
+set(master_laser_scanner_RUN_DEPENDS )
+set(master_laser_scanner_BUILDTOOL_DEPENDS "catkin")

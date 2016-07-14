@@ -1,0 +1,9 @@
+<launch>
+	<!-- vim: ft=xml -->
+
+	<node pkg="io_expander" type="io_expander_node" name="io_expander" respawn="true" clear_params="true" output="screen">
+
+		<!-- set params if necessary -->
+
+	</node>
+</launch>

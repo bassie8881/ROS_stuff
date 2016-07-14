@@ -1,0 +1,8 @@
+prefix=/home/odroid/laser_scanner_copy/devel
+
+Name: master_laser_scanner
+Description: Description of master_laser_scanner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/laser_scanner_copy/devel/lib 
+Requires: 

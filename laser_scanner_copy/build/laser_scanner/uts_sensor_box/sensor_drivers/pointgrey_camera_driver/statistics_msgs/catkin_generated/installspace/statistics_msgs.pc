@@ -1,0 +1,8 @@
+prefix=/home/odroid/laser_scanner_copy/install
+
+Name: statistics_msgs
+Description: Description of statistics_msgs
+Version: 0.11.0
+Cflags: -I/home/odroid/laser_scanner_copy/install/include
+Libs: -L/home/odroid/laser_scanner_copy/install/lib 
+Requires: message_runtime

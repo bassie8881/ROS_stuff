@@ -1,0 +1,8 @@
+prefix=/home/odroid/laser_scanner_copy/install
+
+Name: slam_2d
+Description: Description of slam_2d
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/laser_scanner_copy/install/lib 
+Requires: 

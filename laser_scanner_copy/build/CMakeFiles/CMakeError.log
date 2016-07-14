@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec933073299/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec933073299.dir/build.make CMakeFiles/cmTryCompileExec933073299.dir/build
+make[1]: Entering directory `/home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec933073299.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec933073299.dir/CheckSymbolExists.c.o   -c /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec933073299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec933073299.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec933073299.dir/CheckSymbolExists.c.o  -o cmTryCompileExec933073299 -rdynamic 
+CMakeFiles/cmTryCompileExec933073299.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec933073299] Error 1
+make[1]: Leaving directory `/home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec933073299/fast] Error 2
+
+File /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3819149323/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3819149323.dir/build.make CMakeFiles/cmTryCompileExec3819149323.dir/build
+make[1]: Entering directory `/home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp'
+make[1]: Warning: File `/usr/share/cmake-2.8/Modules/CheckFunctionExists.c' has modification time 3.3e+07 s in the future
+/usr/bin/cmake -E cmake_progress_report /home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3819149323.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3819149323.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3819149323
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3819149323.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3819149323.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3819149323 -rdynamic -lpthreads 
+/usr/bin/ld.bfd.real: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3819149323] Error 1
+make[1]: Leaving directory `/home/odroid/laser_scanner_copy/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3819149323/fast] Error 2
+
+

@@ -1,0 +1,17 @@
+<launch>
+	<node pkg="wheelchair_proxy" type="wc_ros" name="wc_node" output="screen">
+		<param name="RUN_ODOM" value="true"/>
+		<param name="GEAR" value="2"/>
+		<param name="USE_JS" value="true"/>
+		<param name="JS_DZ" value="5"/>
+	</node>
+	<!--node pkg="wheelchair_proxy" type="rfu_ros" name="RFU" output="screen"/-->
+
+</launch>
+
+<!--
+	RUN_ODOM: enable encoder odometry
+	GEAR: Gear setting. Default 2, at present driver supports 1 and 2 only
+	USE_JS: Runs a mandatory calibration for the joystick axes
+	JS_DZ: Joystick deadzone (%)
+-->

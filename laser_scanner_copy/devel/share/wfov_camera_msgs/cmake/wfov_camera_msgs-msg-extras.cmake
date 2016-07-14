@@ -1,0 +1,2 @@
+set(wfov_camera_msgs_MESSAGE_FILES "/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/wfov_camera_msgs/msg/WFOVCompressedImage.msg;/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/wfov_camera_msgs/msg/WFOVImage.msg;/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/wfov_camera_msgs/msg/WFOVTrigger.msg")
+set(wfov_camera_msgs_SERVICE_FILES "")

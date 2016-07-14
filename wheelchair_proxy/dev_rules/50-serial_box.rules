@@ -1,0 +1,3 @@
+KERNEL=="ttyUSB?" ATTRS{idVendor}=="067b", MODE="0666", ATTRS{manufacturer}=="Prolific Technology Inc.", ATTRS{product}=="USB-Serial Controller", ATTRS{idProduct}=="2303", SYMLINK+="wc/mots"
+
+#udevadm info -a -p $(udevadm info -q path -n /dev/tty***)

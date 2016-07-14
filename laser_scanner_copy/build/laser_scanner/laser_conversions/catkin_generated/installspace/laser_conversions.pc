@@ -1,0 +1,8 @@
+prefix=/home/odroid/laser_scanner_copy/install
+
+Name: laser_conversions
+Description: Description of laser_conversions
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/laser_scanner_copy/install/lib 
+Requires: 

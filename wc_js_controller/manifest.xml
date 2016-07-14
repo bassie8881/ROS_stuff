@@ -1,0 +1,17 @@
+<package>
+  <description brief="wc_js_controller">
+
+     wc_js_controller
+
+  </description>
+  <author>James</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wc_js_controller</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+
+</package>
+
+

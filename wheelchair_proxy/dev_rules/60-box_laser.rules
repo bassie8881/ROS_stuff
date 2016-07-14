@@ -1,0 +1,3 @@
+KERNEL=="ttyACM?" ATTRS{idVendor}=="15d1", MODE="0666", ATTRS{manufacturer}=="Hokuyo Data Flex for USB", ATTRS{product}=="URG-Series USB Driver", ATTRS{bMaxPacketSize0}=="8", SYMLINK+="box/laser"
+
+#udevadm info -a -p $(udevadm info -q path -n /dev/ttyACM0)

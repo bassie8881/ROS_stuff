@@ -1,0 +1,3 @@
+KERNEL=="ttyUSB?" ATTRS{idVendor}=="0403", MODE="0666", ATTRS{manufacturer}=="FTDI", ATTRS{product}=="USB HS SERIAL CONVERTER", ATTRS{serial}=="FTBPHTT9", SYMLINK+="wc/lenc"
+
+#udevadm info -a -p $(udevadm info -q path -n /dev/tty***)

@@ -1,0 +1,26 @@
+<launch>
+
+  <!-- Run arduino serrial Mega wheelchair control -->
+  <node pkg="rosserial_python" type="serial_node.py" name="serial_node_mega">
+    <param name="port" value="/dev/wheelchair_mega"/>
+    <param name="baud" value="57600"/>
+  </node>
+
+  <!-- Run WC wheel odometry node -->
+  <node pkg="wc_encoders" type="wc_encoders_node" name="wc_encoders_node" output="screen"/>
+  
+  <!-- Joystick/Twist conversion -->
+  <arg name="wc_jt_file" default="wc_jt"/>
+  <include file="$(find pyhash)/basic.launch">
+    <arg name="lut" value="$(arg wc_jt_file)"/>
+  </include>
+  
+  <arg name="hash_topic" default="/pyhash/$(arg wc_jt_file)"/>
+  <node pkg="wc_encoders" type="jt_inverse_node.py" name="jt_inv_node" output="screen">
+    <param name="hash_topic" value="$(arg hash_topic)"/>
+  </node>
+
+  <!-- Joystick/Twist profile builder -->
+  <!--node pkg="wc_encoders" type="jt_profile_node" name="jt_profile_node" output="screen"/-->
+
+</launch>

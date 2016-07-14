@@ -1,0 +1,1 @@
+KERNEL=="ttyACM?" AATRS{idVendor}=="15d1", ATTRS{manufacturer}=="Hokuyo Data Flex for USB", ATTRS{product}=="URG-Series USB Driver", ATTRS{bMaxPower}=="100mA", SYMLINK+="wc/front_laser"

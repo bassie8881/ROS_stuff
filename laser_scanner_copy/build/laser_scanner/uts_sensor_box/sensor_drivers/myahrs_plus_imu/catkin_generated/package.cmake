@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "myahrs_plus_imu")
+set(myahrs_plus_imu_MAINTAINER "odroid <odroid@todo.todo>")
+set(myahrs_plus_imu_DEPRECATED "")
+set(myahrs_plus_imu_VERSION "0.0.0")
+set(myahrs_plus_imu_BUILD_DEPENDS "roscpp" "std_msgs")
+set(myahrs_plus_imu_RUN_DEPENDS "roscpp" "rosstd_msgs")
+set(myahrs_plus_imu_BUILDTOOL_DEPENDS "catkin")

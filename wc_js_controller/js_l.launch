@@ -1,0 +1,26 @@
+<launch>
+	<node pkg="wc_js_controller" type="wc_ftl_test" name="combo_test" output="screen" />
+</launch>
+
+<!--
+For teleop over network:
+
+0. check that wheelchair/control PCs can ping both themselves and each other
+1. run ros master on wheelchair
+2. set ROS_IP of both PCs to their own IPs
+3. on wheelchair, set ROS_MASTER_URI to http://localhost:11311
+4. on control PC, set ROS_MASTER_URI to http://[wheelchair ip]:11311
+
+
+
+joystick input:
+	<node pkg="joy" type="joy_node" name="wc_joy">
+		<param name="dev" type="string" value="/dev/input/js0" />
+		<param name="deadzone" value="0.05" />
+		<param name="autorepeat_rate" value="25" />
+	</node>
+
+joystick wheelchair control:
+*The axes in the callback are for the Thrustmaster (teehee); check axes for other controllers
+	<node pkg="wc_js_controller" type="js_teleop" name="joystick_teleop" output="screen" />
+-->

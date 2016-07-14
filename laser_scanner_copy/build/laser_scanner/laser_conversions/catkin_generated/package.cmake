@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_conversions")
+set(laser_conversions_MAINTAINER "brendan <brendan@todo.todo>")
+set(laser_conversions_DEPRECATED "")
+set(laser_conversions_VERSION "0.0.0")
+set(laser_conversions_BUILD_DEPENDS "laser_assembler" "laser_geometry" "roscpp" "tf")
+set(laser_conversions_RUN_DEPENDS "laser_assembler" "laser_geometry" "roscpp" "tf")
+set(laser_conversions_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,2 @@
+set(image_exposure_msgs_MESSAGE_FILES "/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/image_exposure_msgs/msg/ExposureSequence.msg;/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/image_exposure_msgs/msg/ImageExposureStatistics.msg;/home/odroid/laser_scanner_copy/src/laser_scanner/uts_sensor_box/sensor_drivers/pointgrey_camera_driver/image_exposure_msgs/msg/SequenceExposureStatistics.msg")
+set(image_exposure_msgs_SERVICE_FILES "")

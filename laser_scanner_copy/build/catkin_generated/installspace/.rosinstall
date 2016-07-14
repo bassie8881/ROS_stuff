@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/odroid/laser_scanner_copy/install/setup.sh

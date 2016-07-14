@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "slam_3d")
+set(slam_3d_MAINTAINER "brendan <brendan@todo.todo>")
+set(slam_3d_DEPRECATED "")
+set(slam_3d_VERSION "0.0.0")
+set(slam_3d_BUILD_DEPENDS "cmake_modules" "octomap_server" "sensor_msgs" "std_msgs")
+set(slam_3d_RUN_DEPENDS "cmake_modules" "octomap_server" "sensor_msgs" "std_msgs")
+set(slam_3d_BUILDTOOL_DEPENDS "catkin")

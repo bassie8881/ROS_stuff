@@ -1,0 +1,20 @@
+<package>
+  <description brief="wheelchair_proxy">
+
+     wheelchair_proxy
+
+  </description>
+  <author>student</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wheelchair_proxy</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+

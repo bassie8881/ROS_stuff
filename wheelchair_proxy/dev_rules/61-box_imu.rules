@@ -1,0 +1,3 @@
+KERNEL=="ttyUSB?" ATTRS{idVendor}=="0403", MODE="0666", ATTRS{manufacturer}=="Xsens", ATTRS{product}=="Xsens USB-serial converter", ATTRS{serial}=="XSSK5VNA", SYMLINK+="box/imu"
+
+#udevadm info -q all --attribute-walk -n /dev/ttyUSB0

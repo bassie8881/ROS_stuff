@@ -1,0 +1,8 @@
+prefix=/home/odroid/laser_scanner_copy/install
+
+Name: data_recorder
+Description: Description of data_recorder
+Version: 0.0.0
+Cflags: -I/home/odroid/laser_scanner_copy/install/include -I/usr/include/eigen3
+Libs: -L/home/odroid/laser_scanner_copy/install/lib -ldata_recorder
+Requires: roscpp rospy std_msgs message_runtime
