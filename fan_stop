@@ -1,0 +1,3 @@
+echo 2 > /sys/devices/odroid_fan.14/fan_mode
+
+

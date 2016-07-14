@@ -1,0 +1,19 @@
+Creating udev rules
+
+Create file with favorite editor: like: 43-hokuyo.rules
+
+then in ubuntu terminal: udevadm info -a -p $(udevadm info -q path -n /dev/ttyACM0)
+
+save in map Pictures
+
+then in ubuntu terminal: cd /etc/udev/rules.d
+sudo mv ~/Pictures/42-hokuyo.rules
+
+
+could be something like this:
+
+KERNEL=="ttyACM?" ATTRS{manufacturer}=="Arduino (www.arduino.cc)" ATTRS{serial}=="95232343733351B04262" SYMLINK+="freek_mega"
+
+http://weininger.net/how-to-write-udev-rules-for-usb-devices.html
+
+SN74LS125 chip for PWM smoothing
